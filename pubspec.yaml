@@ -1,0 +1,31 @@
+name: challenge_quiz
+description: Flutter Quiz Challenge
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  step_progress_indicator: ^1.0.1
+  flutter_rating_bar: ^4.0.0
+  percent_indicator: ^3.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
